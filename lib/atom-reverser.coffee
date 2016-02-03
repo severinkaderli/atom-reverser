@@ -32,10 +32,18 @@ module.exports = AtomReverser =
 
                 # TODO: Add more keyword combinations
                 # TODO: Optimize this piece of code
+                # TODO: Save the current casing to restore it afterwards
+                text = text.toLowerCase()
+
                 if text == "true"
                     return selection.insertText("false")
                 if text == "false"
                     return selection.insertText("true")
+
+                if text == "1"
+                    return selection.insertText("0")
+                if text == "0"
+                    return selection.insertText("1")
 
                 if text == "x"
                     return selection.insertText("y")
@@ -46,3 +54,20 @@ module.exports = AtomReverser =
                     return selection.insertText("height")
                 if text == "height"
                     return selection.insertText("width")
+
+                if text == "("
+                    return selection.insertText(")")
+                if text == ")"
+                    return selection.insertText("(")
+
+                if text == "["
+                    return selection.insertText("]")
+                if text == "]"
+                    return selection.insertText("[")
+
+                if text == "{"
+                    return selection.insertText("}")
+                if text == "}"
+                    return selection.insertText("{")
+
+                #TODO: Format the text using the correct casing

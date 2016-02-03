@@ -5,5 +5,9 @@ Reverses your current selection; e.g. false to true etc.
 | Keyword 1 | Keyword 2 |
 |-----------|-----------|
 | true      | false     |
+| 0         | 1         |
 | x         | y         |
 | width     | height    |
+| (         | )         |
+| [         | ]         |
+| {         | }         |
