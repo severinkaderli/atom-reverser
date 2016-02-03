@@ -36,3 +36,13 @@ module.exports = AtomReverser =
                     return selection.insertText("false")
                 if text == "false"
                     return selection.insertText("true")
+
+                if text == "x"
+                    return selection.insertText("y")
+                if text == "y"
+                    return selection.insertText("x")
+
+                if text == "width"
+                    return selection.insertText("height")
+                if text == "height"
+                    return selection.insertText("width")
