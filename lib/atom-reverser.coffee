@@ -20,10 +20,19 @@ module.exports = AtomReverser =
         return unless editor
 
         selections = editor.getSelections()
+
         for selection in selections
             do (selection) ->
                 text = selection.getText()
+
+                # If nothing is selected select the current word
+                if text == ""
+                    selection.selectWord()
+                    text = selection.getText()
+
+                # TODO: Add more keyword combinations
+                # TODO: Optimize this piece of code
                 if text == "true"
-                    selection.insertText("false")
+                    return selection.insertText("false")
                 if text == "false"
-                    selection.insertText("true")
+                    return selection.insertText("true")
