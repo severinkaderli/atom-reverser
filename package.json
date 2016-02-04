@@ -1,7 +1,7 @@
 {
   "name": "atom-reverser",
   "main": "./lib/atom-reverser",
-  "version": "3.0.0",
+  "version": "2.0.0",
   "description": "Reverses your current selection; e.g. false to true etc.",
   "keywords": [],
   "activationCommands": {
