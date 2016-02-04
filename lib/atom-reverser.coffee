@@ -15,59 +15,69 @@ module.exports = AtomReverser =
     getActiveEditor: ->
         atom.workspace.getActiveTextEditor()
 
+    invertString: (string) ->
+        # TODO: Add more keyword combinations
+        # TODO: Optimize this piece of code
+        if string == "true"
+            return "false"
+        if string == "false"
+            return "true"
+
+        if string == "1"
+            return "0"
+        if string == "0"
+            return "1"
+
+        if string == "x"
+            return "y"
+        if string == "y"
+            return "x"
+
+        if string == "width"
+            return "height"
+        if string == "height"
+            return "width"
+
+        if string == "("
+            return ")"
+        if string == ")"
+            return "("
+
+        if string == "["
+            return "]"
+        if string == "]"
+            return "["
+
+        if string == "{"
+            return "}"
+        if string == "}"
+            return "{"
+
+        return false
+
     reverse: ->
-        editor = @getActiveEditor()
+        editor = @getActiveEditor(  )
         return unless editor
 
         selections = editor.getSelections()
 
         for selection in selections
             do (selection) ->
+            text = selection.getText()
+            # If nothing is selected select the current word
+            if text == ""
+                selection.selectWord()
                 text = selection.getText()
 
-                # If nothing is selected select the current word
-                if text == ""
-                    selection.selectWord()
-                    text = selection.getText()
 
-                # TODO: Add more keyword combinations
-                # TODO: Optimize this piece of code
-                # TODO: Save the current casing to restore it afterwards
-                text = text.toLowerCase()
+            # TODO: Save the current casing to restore it afterwards
+            text = text.toLowerCase()
+            replacementText = @invertString(text)
 
-                if text == "true"
-                    return selection.insertText("false")
-                if text == "false"
-                    return selection.insertText("true")
+            if replacementText
+                selection.insertText(replacementText)
 
-                if text == "1"
-                    return selection.insertText("0")
-                if text == "0"
-                    return selection.insertText("1")
+            # Keep selections
+            selection.selectWord()
 
-                if text == "x"
-                    return selection.insertText("y")
-                if text == "y"
-                    return selection.insertText("x")
-
-                if text == "width"
-                    return selection.insertText("height")
-                if text == "height"
-                    return selection.insertText("width")
-
-                if text == "("
-                    return selection.insertText(")")
-                if text == ")"
-                    return selection.insertText("(")
-
-                if text == "["
-                    return selection.insertText("]")
-                if text == "]"
-                    return selection.insertText("[")
-
-                if text == "{"
-                    return selection.insertText("}")
-                if text == "}"
-                    return selection.insertText("{")
-
-                #TODO: Format the text using the correct casing
+            #TODO: Format the text using the correct casing
