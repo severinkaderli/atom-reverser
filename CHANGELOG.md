@@ -1,3 +1,8 @@
+## 2.0.0
+* Case is now kept after reversing
+* Added more keywords
+* Fixed non-word-selections not being kept
+
 ## 1.1.0
 * Selection is now kept after reversing
 * Added more keywords

@@ -10,7 +10,7 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'atom-reverser'
+      'label': 'Reverser'
       'submenu': [
         {
           'label': 'Reverse'
