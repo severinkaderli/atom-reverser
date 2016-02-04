@@ -2,6 +2,35 @@
 
 module.exports = AtomReverser =
     subscriptions: null
+    keywords:
+        "true": "false"
+        "false": "true"
+        "1": "0"
+        "0": "1"
+        "x": "y"
+        "y": "x"
+        "width": "height"
+        "height": "width"
+        "(": ")"
+        ")": "("
+        "[": "]"
+        "]": "["
+        "{": "}"
+        "}": "{"
+        "+": "-"
+        "-": "+"
+        "*": "/"
+        "/": "*"
+        "up": "down"
+        "down": "up"
+        "left": "right"
+        "right": "left"
+        "top": "bottom"
+        "bottom": "top"
+        "hidden": "visible"
+        "visible": "hidden"
+        "'": "\""
+        "\"": "'"
 
     activate: (state) ->
         # Register command that toggles this view
@@ -16,48 +45,15 @@ module.exports = AtomReverser =
         atom.workspace.getActiveTextEditor()
 
     invertString: (string) ->
-        # TODO: Add more keyword combinations
-        # TODO: Optimize this piece of code
-        if string == "true"
-            return "false"
-        if string == "false"
-            return "true"
-
-        if string == "1"
-            return "0"
-        if string == "0"
-            return "1"
-
-        if string == "x"
-            return "y"
-        if string == "y"
-            return "x"
-
-        if string == "width"
-            return "height"
-        if string == "height"
-            return "width"
-
-        if string == "("
-            return ")"
-        if string == ")"
-            return "("
-
-        if string == "["
-            return "]"
-        if string == "]"
-            return "["
-
-        if string == "{"
-            return "}"
-        if string == "}"
-            return "{"
+        if @keywords[string] != undefined
+            return @keywords[string]
 
         return false
 
     reverse: ->
-        editor = @getActiveEditor(  )
+        editor = @getActiveEditor()
         return unless editor
+
 
         selections = editor.getSelections()
 

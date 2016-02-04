@@ -1,5 +1,5 @@
 # atom-reverser
-Reverses your current selection; e.g. false to true etc.
+Reverses your current selections; e.g. false to true etc.
 
 ## List of reversible keywords
 | Keyword 1 | Keyword 2 |
@@ -11,3 +11,10 @@ Reverses your current selection; e.g. false to true etc.
 | (         | )         |
 | [         | ]         |
 | {         | }         |
+| +         | -         |
+| *         | /         |
+| up        | down      |
+| left      | right     |
+| top       | bottom    |
+| hidden    | visible   |
+| '         | "         |
