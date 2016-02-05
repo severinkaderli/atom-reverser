@@ -2,12 +2,21 @@
 Reverses your current selections; e.g. false to true etc.
 
 ## List of reversible keywords
+
+### Array
+| Keyword 1 | Keyword 2   |
+|-----------|-------------|
+| join      | split       |
+| push      | pop         |
+| reduce    | reduceRight |
+| shift     | unshift     |
+
 ### Boolean
 | Keyword 1 | Keyword 2 |
 |-----------|-----------|
 | and       | nand      |
-| or        | nor       |
 | false     | true      |
+| or        | nor       |
 | xnor      | xor       |
 
 ### Brackets
@@ -17,6 +26,11 @@ Reverses your current selections; e.g. false to true etc.
 | [         | ]         |
 | {         | }         |
 | <         | >         |
+
+### DOM
+| Keyword 1      | Keyword 2            |
+|----------------|----------------------|
+| getElementById | getElementsByTagName |
 
 ### Events
 | Keyword 1    | Keyword 2    |
@@ -39,7 +53,6 @@ Reverses your current selections; e.g. false to true etc.
 ### HTML
 | Keyword 1 | Keyword 2 |
 |-----------|-----------|
-| big       | small     |
 | body      | head      |
 | del       | ins       |
 | footer    | header    |
@@ -47,12 +60,18 @@ Reverses your current selections; e.g. false to true etc.
 | ol        | ul        |
 | tFoot     | tHead     |
 
+### JSON
+| Keyword 1  | Keyword 2      |
+|------------|----------------|
+| JSON.parse | JSON.stringify |
+| parse      | stringify      |
+
 ### Math
 | Keyword 1 | Keyword 2  |
 |-----------|------------|
 | atan      | tan        |
-| cos       | sin        |
 | ceil      | floor      |
+| cos       | sin        |
 | Math.atan | Math.tan   |
 | Math.ceil | Math.floor |
 | Math.cos  | Math.sin   |
@@ -67,22 +86,35 @@ Reverses your current selections; e.g. false to true etc.
 | connect   | disconnect |
 | offline   | online     |
 
+### Number
+| Keyword 1                | Keyword 2                |
+|--------------------------|--------------------------|
+| MAX_SAFE_INTEGER         | MIN_SAFE_INTEGER         |
+| MAX_VALUE                | MIN_VALUE                |
+| NEGATIVE_INFINITY        | POSITIVE_INFINITY        |
+| Number.MAX_SAFE_INTEGER  | Number.MIN_SAFE_INTEGER  |
+| Number.MAX_VALUE         | Number.MIN_VALUE         |
+| Number.NEGATIVE_INFINITY | Number.POSITIVE_INFINITY |
+| Number.parseInt          | Number.parseFloat        |
+| parseInt                 | parseFloat               |
+
 ### Operators
-| Keyword 1 | Keyword 2 |
-|-----------|-----------|
-| *         | /         |
-| *=        | /=        |
-| &         | &#124;    |
-| &&        | &#124;&#124;|
-| &=        | &#124;=   |
-| +         | -         |
-| ++        | --        |
-| +=        | -=        |
-| <<        | >>        |
-| <<=       | >>=       |
-| <=        | >=        |
-| ==        | !=        |
-| ===       | !==       |
+| Keyword 1 | Keyword 2    |
+|-----------|--------------|
+| !         | ~            |
+| *         | /            |
+| *=        | /=           |
+| &         | &#124;       |
+| &&        | &#124;&#124; |
+| &=        | &#124;=      |
+| +         | -            |
+| ++        | --           |
+| +=        | -=           |
+| <<        | >>           |
+| <<=       | >>=          |
+| <=        | >=           |
+| ==        | !=           |
+| ===       | !==          |
 
 ### Positions
 | Keyword 1 | Keyword 2 |
@@ -90,6 +122,13 @@ Reverses your current selections; e.g. false to true etc.
 | bottom    | top       |
 | down      | up        |
 | left      | right     |
+
+### React
+| Keyword 1         | Keyword 2            |
+|-------------------|----------------------|
+| addChangeListener | removeChangeListener |
+| componentDidMount | componentWillUnmount |
+| getState          | setState             |
 
 ### Single Characters
 | Keyword 1 | Keyword 2 |
@@ -99,28 +138,45 @@ Reverses your current selections; e.g. false to true etc.
 | x         | y         |
 
 ### Other
-| Keyword 1   | Keyword 2  |
-|-------------|------------|
-| activate    | deactivate |
-| add         | remove     |
-| after       | before     |
-| background  | foreground |
-| column      | row        |
-| delete      | insert     |
-| destination | source     |
-| enabled     | disabled   |
-| height      | width      |
-| hidden      | visible    |
-| hide        | show       |
-| import      | export     |
-| imports     | exports    |
-| in          | out        |
-| input       | output     |
-| key         | value      |
-| load        | unload     |
-| next        | previous   |
-| open        | close      |
-| over        | under      |
-| pause       | resume     |
-| private     | public     |
-| that        | this       |
+| Keyword 1   | Keyword 2   |
+|-------------|-------------|
+| []          | {}          |
+| activate    | deactivate  |
+| add         | remove      |
+| after       | before      |
+| available   | unavailable |
+| background  | foreground  |
+| black       | white       |
+| child       | parent      |
+| close       | open        |
+| column      | row         |
+| delete      | insert      |
+| destination | source      |
+| enabled     | disabled    |
+| export      | import      |
+| exports     | imports     |
+| first       | last        |
+| get         | set         |
+| height      | width       |
+| hidden      | visible     |
+| hide        | show        |
+| high        | low         |
+| in          | out         |
+| input       | output      |
+| install     | uninstall   |
+| key         | value       |
+| large       | small       |
+| largest     | smallest    |
+| link        | unlink      |
+| load        | unload      |
+| long        | short       |
+| major       | minor       |
+| next        | previous    |
+| no          | yes         |
+| off         | on          |
+| open        | close       |
+| over        | under       |
+| pause       | resume      |
+| prefix      | suffix      |
+| public      | private     |
+| that        | this        |

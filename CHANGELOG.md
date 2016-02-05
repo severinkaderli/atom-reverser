@@ -1,3 +1,6 @@
+## 2.1.0
+* Added more keywords
+
 ## 2.0.0
 * Case is now kept after reversing
 * Added more keywords
