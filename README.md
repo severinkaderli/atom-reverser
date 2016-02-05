@@ -122,6 +122,7 @@ Reverses your current selections; e.g. false to true etc.
 
 ### React
 | Keyword 1         | Keyword 2            |
+|-------------------|----------------------|
 | addChangeListener | removeChangeListener |
 | componentDidMount | componentWillUnmount |
 | getState          | setState             |
