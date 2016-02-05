@@ -3,16 +3,23 @@
 module.exports = AtomReverser =
     subscriptions: null
     keywords:
+        # array
+        "join": "split"
+        "push": "pop"
+        "reduce": "reduceRight"
+        "shift": "unshift"
         # boolean
         "and": "nand"
-        "or": "nor"
         "false": "true"
+        "or": "nor"
         "xnor": "xor"
         # brackets
         "(": ")"
         "[": "]"
         "{": "}"
         "<": ">"
+        # dom
+        "getElementById": "getElementsByTagName"
         # events
         "audioEnd": "audioStart"
         "blur": "focus"
@@ -29,17 +36,19 @@ module.exports = AtomReverser =
         "speechEnd": "speechStart"
         "touchEnd": "touchStart"
         # html
-        "big": "small"
         "body": "head"
         "del": "ins"
         "footer": "header"
         "noScript": "script"
         "ol": "ul"
         "tFoot": "tHead"
+        # json
+        "JSON.parse": "JSON.stringify"
+        "parse": "stringify"
         # math
         "atan": "tan"
-        "cos": "sin"
         "ceil": "floor"
+        "cos": "sin"
         "Math.atan": "Math.tan"
         "Math.ceil": "Math.floor"
         "Math.cos": "Math.sin"
@@ -50,7 +59,14 @@ module.exports = AtomReverser =
         "client": "server"
         "connect": "disconnect"
         "offline": "online"
+        # number
+        "Number.MAX_SAFE_INTEGER": "Number.MIN_SAFE_INTEGER"
+        "Number.MAX_VALUE": "Number.MIN_VALUE"
+        "Number.NEGATIVE_INFINITY": "Number.POSITIVE_INFINITY"
+        "Number.parseInt": "Number.parseFloat"
+        "parseInt": "parseFloat"
         # operators
+        "!": "~"
         "*": "/"
         "*=": "/="
         "&": "|"
@@ -71,33 +87,52 @@ module.exports = AtomReverser =
         # react
         "addChangeListener": "removeChangeListener"
         "componentDidMount": "componentWillUnmount"
+        "getState": "setState"
         # single characters
         "'": "\""
         "0": "1"
         "x": "y"
         # other
+        "[]": "{}"
         "activate": "deactivate"
         "add": "remove"
         "after": "before"
+        "available": "unavailable"
         "background": "foreground"
+        "black": "white"
+        "child": "parent"
+        "close": "open"
         "column": "row"
         "delete": "insert"
         "destination": "source"
         "enabled": "disabled"
+        "export": "import"
+        "exports": "imports"
+        "first": "last"
+        "get": "set"
         "height": "width"
         "hidden": "visible"
         "hide": "show"
-        "import": "export"
-        "imports": "exports"
+        "high": "low"
         "in": "out"
         "input": "output"
+        "install": "uninstall"
         "key": "value"
+        "large": "small"
+        "largest": "smallest"
+        "link": "unlink"
         "load": "unload"
+        "long": "short"
+        "major": "minor"
+        "negative": "positive"
         "next": "previous"
-        "open": "close"
+        "no": "yes"
+        "off": "on"
         "over": "under"
         "pause": "resume"
-        "private": "public"
+        "prefix": "suffix"
+        "public": "private"
+        "start": "stop"
         "that": "this"
 
     activate: (state) ->
@@ -123,19 +158,19 @@ module.exports = AtomReverser =
         return false
 
     detectCase: (string) ->
-        currentCase = 'unknown';
         if string.toLowerCase() == string
-            currentCase = 'lowercase'
+            return 'lowercase'
         else if string.toUpperCase() == string
-            currentCase = 'UPPERCASE'
+            return 'UPPERCASE'
         else if string[0].toLowerCase() == string[0]
-            currentCase = 'camelCase'
+            return 'camelCase'
         else if string[0].toUpperCase() == string[0]
-            currentCase = 'TitleCase'
-        return currentCase
+            return 'TitleCase'
+        else
+            return 'unknown'
 
     applyCase: (string, toCase) ->
-        return string if string == false
+        return false unless string
         switch toCase
             when "lowercase"
                 return string.toLowerCase()
@@ -159,7 +194,7 @@ module.exports = AtomReverser =
             text = selection.getText()
 
             # If nothing is selected select the current word
-            if text == ""
+            if !text
                 selection.selectWord()
                 text = selection.getText()
 
