@@ -60,6 +60,9 @@ module.exports = AtomReverser =
         "connect": "disconnect"
         "offline": "online"
         # number
+        "MAX_SAFE_INTEGER": "MIN_SAFE_INTEGER"
+        "MAX_VALUE": "MIN_VALUE"
+        "NEGATIVE_INFINITY": "POSITIVE_INFINITY"
         "Number.MAX_SAFE_INTEGER": "Number.MIN_SAFE_INTEGER"
         "Number.MAX_VALUE": "Number.MIN_VALUE"
         "Number.NEGATIVE_INFINITY": "Number.POSITIVE_INFINITY"
