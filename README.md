@@ -1,5 +1,11 @@
 # atom-reverser
+
+[![Plugin installs](https://img.shields.io/apm/dm/atom-reverser.svg?style=flat-square)](https://atom.io/packages/atom-reverser)
+[![Package version](https://img.shields.io/apm/v/atom-reverser.svg?style=flat-square)](https://atom.io/packages/atom-reverser)
+
 Reverses your current selections; e.g. false to true etc.
+
+![Atom Reverser in action](https://i.imgur.com/YawGVsN.gif)
 
 ## List of reversible keywords
 
