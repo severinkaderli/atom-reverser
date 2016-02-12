@@ -5,13 +5,13 @@ module.exports = AtomReverser =
     keywords:
         # array
         "join": "split"
-        "push": "pop"
+        "pop": "push"
         "reduce": "reduceRight"
         "shift": "unshift"
         # boolean
         "and": "nand"
         "false": "true"
-        "or": "nor"
+        "nor": "or"
         "xnor": "xor"
         # brackets
         "(": ")"
@@ -195,11 +195,13 @@ module.exports = AtomReverser =
         for selection in selections
             do (selection) ->
             text = selection.getText()
+            userSelected = true;
 
             # If nothing is selected select the current word
             if !text
                 selection.selectWord()
                 text = selection.getText()
+                userSelected = false
 
             # Save the current casing to restore it afterwards
             currentCase = @detectCase(text)
@@ -207,4 +209,4 @@ module.exports = AtomReverser =
             replacementText = @applyCase(@invertString(text), currentCase)
 
             if replacementText
-                selection.insertText(replacementText, {select: true})
+                selection.insertText(replacementText, {select: userSelected})
