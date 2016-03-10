@@ -7,6 +7,12 @@ Reverses your current selections; e.g. false to true etc.
 
 ![Atom Reverser in action](https://i.imgur.com/YawGVsN.gif)
 
+## Install
+
+```sh
+apm install atom-reverser
+```
+
 ## List of reversible keywords
 
 ### Array
@@ -185,4 +191,11 @@ Reverses your current selections; e.g. false to true etc.
 | pause       | resume      |
 | prefix      | suffix      |
 | public      | private     |
+| start       | stop        |
 | that        | this        |
+
+### Usage
+
+| OS X | Windows / Linux | Description |
+|------|-----------------|-------------|
+| <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>r</kbd> | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>r</kbd> | Toggle |
