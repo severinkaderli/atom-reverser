@@ -137,6 +137,12 @@ module.exports = AtomReverser =
         "public": "private"
         "start": "stop"
         "that": "this"
+        "print": "println"
+        "from": "to"
+        "request": "response"
+        "req": "res"
+        "serial": "parallel"
+        "external": "internal"
 
     activate: (state) ->
         # Also add reversed keywords

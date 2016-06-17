@@ -2,7 +2,7 @@
   "name": "atom-reverser",
   "main": "./lib/atom-reverser",
   "version": "2.2.0",
-  "description": "Reverses your current selection; e.g. false to true etc.",
+  "description": "Atom package that reverses your current selections; e.g. false to true etc.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "atom-reverser:reverse"

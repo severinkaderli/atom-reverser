@@ -1,3 +1,6 @@
+## 2.2.0
+* Only select text when user selected it
+
 ## 2.1.0
 * Added more keywords
 
