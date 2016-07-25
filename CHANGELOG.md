@@ -1,3 +1,6 @@
+## 2.4.0
+* Added more keywords
+
 ## 2.3.0
 * Added more keywords
 

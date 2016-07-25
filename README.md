@@ -17,7 +17,7 @@ apm install atom-reverser
 
 ### Array
 | Keyword 1 | Keyword 2   |
-|-----------|-------------|
+|:----------|:------------|
 | join      | split       |
 | push      | pop         |
 | reduce    | reduceRight |
@@ -25,7 +25,7 @@ apm install atom-reverser
 
 ### Boolean
 | Keyword 1 | Keyword 2 |
-|-----------|-----------|
+|:----------|:----------|
 | and       | nand      |
 | false     | true      |
 | or        | nor       |
@@ -33,7 +33,7 @@ apm install atom-reverser
 
 ### Brackets
 | Keyword 1 | Keyword 2 |
-|-----------|-----------|
+|:----------|:----------|
 | (         | )         |
 | [         | ]         |
 | {         | }         |
@@ -41,12 +41,12 @@ apm install atom-reverser
 
 ### DOM
 | Keyword 1      | Keyword 2            |
-|----------------|----------------------|
+|:---------------|:---------------------|
 | getElementById | getElementsByTagName |
 
 ### Events
 | Keyword 1    | Keyword 2    |
-|--------------|--------------|
+|:-------------|:-------------|
 | audioEnd     | audioStart   |
 | blur         | focus        |
 | drag         | drop         |
@@ -64,7 +64,7 @@ apm install atom-reverser
 
 ### HTML
 | Keyword 1 | Keyword 2 |
-|-----------|-----------|
+|:----------|:----------|
 | body      | head      |
 | del       | ins       |
 | footer    | header    |
@@ -74,13 +74,13 @@ apm install atom-reverser
 
 ### JSON
 | Keyword 1  | Keyword 2      |
-|------------|----------------|
+|:-----------|:---------------|
 | JSON.parse | JSON.stringify |
 | parse      | stringify      |
 
 ### Math
 | Keyword 1 | Keyword 2  |
-|-----------|------------|
+|:----------|:-----------|
 | atan      | tan        |
 | ceil      | floor      |
 | cos       | sin        |
@@ -93,14 +93,16 @@ apm install atom-reverser
 
 ### Network
 | Keyword 1 | Keyword 2  |
-|-----------|------------|
+|:----------|:-----------|
+| 0.0.0.0   | 127.0.0.1  |
+| address   | port       |
 | client    | server     |
 | connect   | disconnect |
 | offline   | online     |
 
 ### Number
 | Keyword 1                | Keyword 2                |
-|--------------------------|--------------------------|
+|:-------------------------|:-------------------------|
 | MAX_SAFE_INTEGER         | MIN_SAFE_INTEGER         |
 | MAX_VALUE                | MIN_VALUE                |
 | NEGATIVE_INFINITY        | POSITIVE_INFINITY        |
@@ -112,7 +114,7 @@ apm install atom-reverser
 
 ### Operators
 | Keyword 1 | Keyword 2    |
-|-----------|--------------|
+|:----------|:-------------|
 | !         | ~            |
 | *         | /            |
 | *=        | /=           |
@@ -130,28 +132,29 @@ apm install atom-reverser
 
 ### Positions
 | Keyword 1 | Keyword 2 |
-|-----------|-----------|
+|:----------|:----------|
 | bottom    | top       |
 | down      | up        |
 | left      | right     |
 
 ### React
 | Keyword 1         | Keyword 2            |
-|-------------------|----------------------|
+|:------------------|:---------------------|
 | addChangeListener | removeChangeListener |
 | componentDidMount | componentWillUnmount |
+| dehydrate         | hydrate              |
 | getState          | setState             |
 
 ### Single Characters
 | Keyword 1 | Keyword 2 |
-|-----------|-----------|
+|:----------|:----------|
 | '         | "         |
 | 0         | 1         |
 | x         | y         |
 
 ### Other
 | Keyword 1   | Keyword 2   |
-|-------------|-------------|
+|:------------|:------------|
 | []          | {}          |
 | activate    | deactivate  |
 | add         | remove      |
@@ -162,12 +165,16 @@ apm install atom-reverser
 | child       | parent      |
 | close       | open        |
 | column      | row         |
+| const       | let         |
 | delete      | insert      |
 | destination | source      |
 | enabled     | disabled    |
 | export      | import      |
 | exports     | imports     |
+| external    | internal    |
 | first       | last        |
+| file        | folder      |
+| from        | to          |
 | get         | set         |
 | height      | width       |
 | hidden      | visible     |
@@ -190,18 +197,17 @@ apm install atom-reverser
 | over        | under       |
 | pause       | resume      |
 | prefix      | suffix      |
+| primary     | secondary   |
+| print       | println     |
 | public      | private     |
+| req         | res         |
+| request     | response    |
+| serial      | parallel    |
 | start       | stop        |
 | that        | this        |
-| print       | println     |
-| from        | to          |
-| request     | response    |
-| req         | res         |
-| serial      | parallel    |
-| external    | internal    |
 
 ### Usage
 
-| OS X | Windows / Linux | Description |
-|------|-----------------|-------------|
-| <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>r</kbd> | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>r</kbd> | Toggle |
+| OS X                                             | Windows / Linux                               | Description |
+|:-------------------------------------------------|:----------------------------------------------|:------------|
+| <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>r</kbd> | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>r</kbd> | Toggle      |
