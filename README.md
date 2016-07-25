@@ -3,9 +3,15 @@
 [![Plugin installs](https://img.shields.io/apm/dm/atom-reverser.svg?style=flat-square)](https://atom.io/packages/atom-reverser)
 [![Package version](https://img.shields.io/apm/v/atom-reverser.svg?style=flat-square)](https://atom.io/packages/atom-reverser)
 
-Reverses your current selections; e.g. false to true etc.
+Atom package that reverses your current selections; e.g. false to true etc.
 
 ![Atom Reverser in action](https://i.imgur.com/YawGVsN.gif)
+
+## Install
+
+```sh
+apm install atom-reverser
+```
 
 ## List of reversible keywords
 
@@ -185,4 +191,17 @@ Reverses your current selections; e.g. false to true etc.
 | pause       | resume      |
 | prefix      | suffix      |
 | public      | private     |
+| start       | stop        |
 | that        | this        |
+| print       | println     |
+| from        | to          |
+| request     | response    |
+| req         | res         |
+| serial      | parallel    |
+| external    | internal    |
+
+### Usage
+
+| OS X | Windows / Linux | Description |
+|------|-----------------|-------------|
+| <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>r</kbd> | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>r</kbd> | Toggle |
