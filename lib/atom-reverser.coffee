@@ -18,9 +18,17 @@ module.exports = AtomReverser =
         "[": "]"
         "{": "}"
         "<": ">"
+        # css
+        "absolute": "relative"
+        # crypto
+        "cipher": "decipher"
+        "decrypt": "encrypt"
+        "decrypted": "encrypted"
+        "sign": "verify"
         # dom
         "getElementById": "getElementsByTagName"
         # events
+        "addEventListener": "removeEventListener"
         "audioEnd": "audioStart"
         "blur": "focus"
         "drag": "drop"
@@ -60,6 +68,7 @@ module.exports = AtomReverser =
         "address": "port"
         "client": "server"
         "connect": "disconnect"
+        "connected": "disconnected"
         "offline": "online"
         # number
         "MAX_SAFE_INTEGER": "MIN_SAFE_INTEGER"
@@ -88,6 +97,8 @@ module.exports = AtomReverser =
         # positions
         "bottom": "top"
         "down": "up"
+        "horizontal": "vertical"
+        "inner": "outer"
         "left": "right"
         # react
         "addChangeListener": "removeChangeListener"
@@ -101,8 +112,10 @@ module.exports = AtomReverser =
         # other
         "[]": "{}"
         "activate": "deactivate"
+        "active": "passive"
         "add": "remove"
         "after": "before"
+        "argc": "argv"
         "available": "unavailable"
         "background": "foreground"
         "black": "white"
@@ -124,9 +137,11 @@ module.exports = AtomReverser =
         "hidden": "visible"
         "hide": "show"
         "high": "low"
+        "impossible": "possible"
         "in": "out"
         "input": "output"
         "install": "uninstall"
+        "invalid": "valid"
         "key": "value"
         "large": "small"
         "largest": "smallest"
