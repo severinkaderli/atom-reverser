@@ -1,3 +1,9 @@
+## 2.5.0
+* Added more keywords
+* Added contribution information to README.md
+* Moved keywords to seperate JSON file
+* Added gulp task to update README.md with new keywords
+
 ## 2.4.0
 * Added more keywords
 
