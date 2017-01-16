@@ -13,224 +13,231 @@ Atom package that reverses your current selections; e.g. false to true etc.
 apm install atom-reverser
 ```
 
-## List of reversible keywords
-
-### Array
-| Keyword 1 | Keyword 2   |
-|:----------|:------------|
-| join      | split       |
-| push      | pop         |
-| reduce    | reduceRight |
-| shift     | unshift     |
-
-### Boolean
-| Keyword 1 | Keyword 2 |
-|:----------|:----------|
-| and       | nand      |
-| false     | true      |
-| or        | nor       |
-| xnor      | xor       |
-
-### Brackets
-| Keyword 1 | Keyword 2 |
-|:----------|:----------|
-| (         | )         |
-| [         | ]         |
-| {         | }         |
-| <         | >         |
-
-### CSS
-
-| Keyword 1 | Keyword 2 |
-|:----------|:----------|
-| absolute  | relative  |
-
-### Crypto
-
-| Keyword 1 | Keyword 2 |
-|:----------|:----------|
-| cipher    | decipher  |
-| decrypt   | encrypt   |
-| decrypted | encrypted |
-| sign      | verify    |
-
-### DOM
-| Keyword 1      | Keyword 2            |
-|:---------------|:---------------------|
-| getElementById | getElementsByTagName |
-
-### Events
-| Keyword 1        | Keyword 2           |
-|:-----------------|:--------------------|
-| addEventListener | removeEventListener |
-| audioEnd         | audioStart          |
-| blur             | focus               |
-| drag             | drop                |
-| dragEnter        | dragLeave           |
-| keyDown          | keyUp               |
-| mouseDown        | mouseUp             |
-| mouseEnter       | mouseLeave          |
-| mouseOut         | mouseOver           |
-| onMouseDown      | onMouseUp           |
-| onMouseEnter     | onMouseLeave        |
-| onMouseOut       | onMouseOver         |
-| pageHide         | pageShow            |
-| speechEnd        | speechStart         |
-| touchEnd         | touchStart          |
-
-### HTML
-| Keyword 1 | Keyword 2 |
-|:----------|:----------|
-| body      | head      |
-| del       | ins       |
-| footer    | header    |
-| noScript  | script    |
-| ol        | ul        |
-| tFoot     | tHead     |
-
-### JSON
-| Keyword 1  | Keyword 2      |
-|:-----------|:---------------|
-| JSON.parse | JSON.stringify |
-| parse      | stringify      |
-
-### Math
-| Keyword 1 | Keyword 2  |
-|:----------|:-----------|
-| atan      | tan        |
-| ceil      | floor      |
-| cos       | sin        |
-| Math.atan | Math.tan   |
-| Math.ceil | Math.floor |
-| Math.cos  | Math.sin   |
-| Math.exp  | Math.log   |
-| Math.max  | Math.min   |
-| max       | min        |
-
-### Network
-| Keyword 1 | Keyword 2    |
-|:----------|:-------------|
-| 0.0.0.0   | 127.0.0.1    |
-| address   | port         |
-| client    | server       |
-| connect   | disconnect   |
-| connected | disconnected |
-| offline   | online       |
-
-### Number
-| Keyword 1                | Keyword 2                |
-|:-------------------------|:-------------------------|
-| MAX_SAFE_INTEGER         | MIN_SAFE_INTEGER         |
-| MAX_VALUE                | MIN_VALUE                |
-| NEGATIVE_INFINITY        | POSITIVE_INFINITY        |
-| Number.MAX_SAFE_INTEGER  | Number.MIN_SAFE_INTEGER  |
-| Number.MAX_VALUE         | Number.MIN_VALUE         |
-| Number.NEGATIVE_INFINITY | Number.POSITIVE_INFINITY |
-| Number.parseInt          | Number.parseFloat        |
-| parseInt                 | parseFloat               |
-
-### Operators
-| Keyword 1 | Keyword 2    |
-|:----------|:-------------|
-| !         | ~            |
-| *         | /            |
-| *=        | /=           |
-| &         | &#124;       |
-| &&        | &#124;&#124; |
-| &=        | &#124;=      |
-| +         | -            |
-| ++        | --           |
-| +=        | -=           |
-| <<        | >>           |
-| <<=       | >>=          |
-| <=        | >=           |
-| ==        | !=           |
-| ===       | !==          |
-
-### Positions
-| Keyword 1  | Keyword 2 |
-|:-----------|:----------|
-| bottom     | top       |
-| down       | up        |
-| horizontal | vertical  |
-| inner      | outer     |
-| left       | right     |
-
-### React
-| Keyword 1         | Keyword 2            |
-|:------------------|:---------------------|
-| addChangeListener | removeChangeListener |
-| componentDidMount | componentWillUnmount |
-| dehydrate         | hydrate              |
-| getState          | setState             |
-
-### Single Characters
-| Keyword 1 | Keyword 2 |
-|:----------|:----------|
-| '         | "         |
-| 0         | 1         |
-| x         | y         |
-
-### Other
-| Keyword 1   | Keyword 2   |
-|:------------|:------------|
-| []          | {}          |
-| activate    | deactivate  |
-| active      | passive     |
-| add         | remove      |
-| after       | before      |
-| argc        | argv        |
-| available   | unavailable |
-| background  | foreground  |
-| black       | white       |
-| child       | parent      |
-| close       | open        |
-| column      | row         |
-| const       | let         |
-| delete      | insert      |
-| destination | source      |
-| enabled     | disabled    |
-| export      | import      |
-| exports     | imports     |
-| external    | internal    |
-| first       | last        |
-| file        | folder      |
-| from        | to          |
-| get         | set         |
-| height      | width       |
-| hidden      | visible     |
-| hide        | show        |
-| high        | low         |
-| impossible  | possible    |
-| in          | out         |
-| input       | output      |
-| install     | uninstall   |
-| invalid     | valid       |
-| key         | value       |
-| large       | small       |
-| largest     | smallest    |
-| link        | unlink      |
-| load        | unload      |
-| long        | short       |
-| major       | minor       |
-| next        | previous    |
-| no          | yes         |
-| off         | on          |
-| open        | close       |
-| over        | under       |
-| pause       | resume      |
-| prefix      | suffix      |
-| primary     | secondary   |
-| print       | println     |
-| public      | private     |
-| req         | res         |
-| request     | response    |
-| serial      | parallel    |
-| start       | stop        |
-| that        | this        |
-
-### Usage
+## Contribution
+If you want to add new keywords just add them to ./lib/keywords.json and then run
+```sh
+gulp readme
+```
+to update README.md with the new keywords. Then you can open a pull request and I will most likely merge it.
+## Usage
 
 | OS X                                             | Windows / Linux                               | Description |
 |:-------------------------------------------------|:----------------------------------------------|:------------|
 | <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>r</kbd> | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>r</kbd> | Toggle      |
+
+
+## List of keywords
+### Arrays
+| Keyword1 | Keyword2 |
+|:----------|:---------|
+| split | join |
+| push | pop |
+| reduceRight | reduce |
+| unshift | shift |
+
+### Boolean
+| Keyword1 | Keyword2 |
+|:----------|:---------|
+| nand | and |
+| true | false |
+| or | nor |
+| xor | xnor |
+
+### Brackets
+| Keyword1 | Keyword2 |
+|:----------|:---------|
+| ) | ( |
+| ] | [ |
+| } | { |
+| > | < |
+
+### CSS
+| Keyword1 | Keyword2 |
+|:----------|:---------|
+| relative | absolute |
+
+### Crypto
+| Keyword1 | Keyword2 |
+|:----------|:---------|
+| decipher | cipher |
+| encrypt | decrypt |
+| encrypted | decrypted |
+| verify | sign |
+
+### DOM
+| Keyword1 | Keyword2 |
+|:----------|:---------|
+| decipher | cipher |
+| encrypt | decrypt |
+| encrypted | decrypted |
+| verify | sign |
+
+### Events
+| Keyword1 | Keyword2 |
+|:----------|:---------|
+| removeEventListener | addEventListener |
+| audioStart | audioEnd |
+| focus | blur |
+| drop | drag |
+| dragLeave | dragEnter |
+| keyUp | keyDown |
+| mouseUp | mouseDown |
+| mouseLeave | mouseEnter |
+| mouseOver | mouseOut |
+| onMouseUp | onMouseDown |
+| onMouseLeave | onMouseEnter |
+| onMouseOver | onMouseOut |
+| pageShow | pageHide |
+| speechStart | speechEnd |
+| touchStart | touchEnd |
+
+### HTML
+| Keyword1 | Keyword2 |
+|:----------|:---------|
+| head | body |
+| ins | del |
+| header | footer |
+| script | noScript |
+| ul | ol |
+| tHead | tFoot |
+
+### JSON
+| Keyword1 | Keyword2 |
+|:----------|:---------|
+| JSON.stringify | JSON.parse |
+| stringify | parse |
+
+### Math
+| Keyword1 | Keyword2 |
+|:----------|:---------|
+| tan | atan |
+| floor | ceil |
+| sin | cos |
+| Math.tan | Math.atan |
+| Math.floor | Math.ceil |
+| Math.sin | Math.cos |
+| Math.log | Math.exp |
+| Math.min | Math.max |
+| min | max |
+
+### Network
+| Keyword1 | Keyword2 |
+|:----------|:---------|
+| 127.0.0.1 | 0.0.0.0 |
+| port | address |
+| server | client |
+| disconnect | connect |
+| disconnected | connected |
+| online | offline |
+
+### Number
+| Keyword1 | Keyword2 |
+|:----------|:---------|
+| MIN_SAFE_INTEGER | MAX_SAFE_INTEGER |
+| MIN_VALUE | MAX_VALUE |
+| POSITIVE_INFINITY | NEGATIVE_INFINITY |
+| Number.MIN_SAFE_INTEGER | Number.MAX_SAFE_INTEGER |
+| Number.MIN_VALUE | Number.MAX_VALUE |
+| Number.POSITIVE_,INFINITY | Number.NEGATIVE_INFINITY |
+| Number.parseFloat | Number.parseInt |
+| parseFloat | parseInt |
+
+### Operators
+| Keyword1 | Keyword2 |
+|:----------|:---------|
+| ~ | ! |
+| / | * |
+| /= | *= |
+| | | & |
+| || | && |
+| |= | &= |
+| - | + |
+| -- | ++ |
+| -= | += |
+| >> | << |
+| >>= | <<= |
+| >= | <= |
+| != | == |
+| !== | === |
+
+### positions
+| Keyword1 | Keyword2 |
+|:----------|:---------|
+| top | bottom |
+| up | down |
+| vertical | horizontal |
+| outer | inner |
+| right | left |
+
+### react
+| Keyword1 | Keyword2 |
+|:----------|:---------|
+| removeChangeListener | addChangeListener |
+| componentWillUnmount | componentDidMount |
+| hydrate | dehydrate |
+| setState | getState |
+
+### Single characters
+| Keyword1 | Keyword2 |
+|:----------|:---------|
+| 1 | 0 |
+| " | ' |
+| y | x |
+
+### Other
+| Keyword1 | Keyword2 |
+|:----------|:---------|
+| {} | [] |
+| deactivate | activate |
+| passive | active |
+| remove | add |
+| before | after |
+| argv | argc |
+| unavailable | available |
+| foreground | background |
+| white | black |
+| parent | child |
+| open | close |
+| row | column |
+| let | const |
+| insert | delete |
+| source | destination |
+| disabled | enabled |
+| import | export |
+| imports | exports |
+| internal | external |
+| folder | file |
+| last | first |
+| to | from |
+| set | get |
+| width | height |
+| visible | hidden |
+| show | hide |
+| low | high |
+| possible | impossible |
+| out | in |
+| output | input |
+| uninstall | install |
+| valid | invalid |
+| value | key |
+| small | large |
+| smallest | largest |
+| unlink | link |
+| unload | load |
+| short | long |
+| minor | major |
+| positive | negative |
+| previous | next |
+| yes | no |
+| on | off |
+| under | over |
+| resume | pause |
+| suffix | prefix |
+| secondary | primary |
+| println | print |
+| private | public |
+| res | req |
+| response | request |
+| parallel | serial |
+| stop | start |
+| this | that |

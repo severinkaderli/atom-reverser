@@ -1,38 +1,38 @@
 {
-    "array": {
+    "Arrays": {
         "join": "split",
         "pop": "push",
         "reduce": "reduceRight",
         "shift": "unshift"
     },
-    "boolean": {
+    "Boolean": {
         "and": "nand",
         "false": "true",
         "nor": "or",
         "xnor": "xor"
     },
-    "brackets": {
+    "Brackets": {
         "(": ")",
         "[": "]",
         "{": "}",
         "<": ">"
     },
-    "css": {
+    "CSS": {
         "absolute": "relative"
     },
-    "crypto": {
+    "Crypto": {
         "cipher": "decipher",
         "decrypt": "encrypt",
         "decrypted": "encrypted",
         "sign": "verify"
     },
-    "dom": {
+    "DOM": {
         "cipher": "decipher",
         "decrypt": "encrypt",
         "decrypted": "encrypted",
         "sign": "verify"
     },
-    "events": {
+    "Events": {
         "addEventListener": "removeEventListener",
         "audioEnd": "audioStart",
         "blur": "focus",
@@ -49,7 +49,7 @@
         "speechEnd": "speechStart",
         "touchEnd": "touchStart"
     },
-    "html": {
+    "HTML": {
         "body": "head",
         "del": "ins",
         "footer": "header",
@@ -57,11 +57,11 @@
         "ol": "ul",
         "tFoot": "tHead"
     },
-    "json": {
+    "JSON": {
         "JSON.parse": "JSON.stringify",
         "parse": "stringify"
     },
-    "math": {
+    "Math": {
         "atan": "tan",
         "ceil": "floor",
         "cos": "sin",
@@ -72,7 +72,7 @@
         "Math.max": "Math.min",
         "max": "min"
     },
-    "network": {
+    "Network": {
         "0.0.0.0": "127.0.0.1",
         "address": "port",
         "client": "server",
@@ -80,7 +80,7 @@
         "connected": "disconnected",
         "offline": "online"
     },
-    "number": {
+    "Number": {
         "MAX_SAFE_INTEGER": "MIN_SAFE_INTEGER",
         "MAX_VALUE": "MIN_VALUE",
         "NEGATIVE_INFINITY": "POSITIVE_INFINITY",
@@ -90,7 +90,7 @@
         "Number.parseInt": "Number.parseFloat",
         "parseInt": "parseFloat"
     },
-    "operators": {
+    "Operators": {
         "!": "~",
         "*": "/",
         "*=": "/=",
@@ -119,12 +119,12 @@
         "dehydrate": "hydrate",
         "getState": "setState"
     },
-    "single characters": {
+    "Single characters": {
         "'": "\"",
         "0": "1",
         "x": "y"
     },
-    "other": {
+    "Other": {
         "[]": "{}",
         "activate": "deactivate",
         "active": "passive",
