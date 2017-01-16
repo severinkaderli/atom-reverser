@@ -1,5 +1,6 @@
 const gulp = require("gulp");
 const replace = require("gulp-replace");
+const escape = require("markdown-escape")
 const _ = require("lodash");
 const keywords = require("./lib/keywords.json");
 
@@ -11,12 +12,12 @@ gulp.task('readme', function() {
     let output = `## List of keywords\n`;
 
     _.forEach(keywords, (values, category) => {
-      output += `### ${category}\n`;
+      output += `### ${escape(category)}\n`;
       output += `| Keyword1 | Keyword2 |\n`;
-      output += `|:----------|:---------|\n`;
+      output += `|:---------|:---------|\n`;
 
       _.forEach(values, (firstKeyword, secondKeyword) => {
-        output += `| ${firstKeyword} | ${secondKeyword} |\n`;
+        output += `| ${escape(firstKeyword)} | ${escape(secondKeyword)} |\n`;
       });
       output += `\n`;
     });

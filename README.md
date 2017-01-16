@@ -29,7 +29,7 @@ to update README.md with the new keywords. Then you can open a pull request and 
 ## List of keywords
 ### Arrays
 | Keyword1 | Keyword2 |
-|:----------|:---------|
+|:---------|:---------|
 | split | join |
 | push | pop |
 | reduceRight | reduce |
@@ -37,7 +37,7 @@ to update README.md with the new keywords. Then you can open a pull request and 
 
 ### Boolean
 | Keyword1 | Keyword2 |
-|:----------|:---------|
+|:---------|:---------|
 | nand | and |
 | true | false |
 | or | nor |
@@ -45,20 +45,20 @@ to update README.md with the new keywords. Then you can open a pull request and 
 
 ### Brackets
 | Keyword1 | Keyword2 |
-|:----------|:---------|
-| ) | ( |
-| ] | [ |
+|:---------|:---------|
+| \) | \( |
+| \] | \[ |
 | } | { |
-| > | < |
+| &gt; | &lt; |
 
 ### CSS
 | Keyword1 | Keyword2 |
-|:----------|:---------|
+|:---------|:---------|
 | relative | absolute |
 
 ### Crypto
 | Keyword1 | Keyword2 |
-|:----------|:---------|
+|:---------|:---------|
 | decipher | cipher |
 | encrypt | decrypt |
 | encrypted | decrypted |
@@ -66,7 +66,7 @@ to update README.md with the new keywords. Then you can open a pull request and 
 
 ### DOM
 | Keyword1 | Keyword2 |
-|:----------|:---------|
+|:---------|:---------|
 | decipher | cipher |
 | encrypt | decrypt |
 | encrypted | decrypted |
@@ -74,7 +74,7 @@ to update README.md with the new keywords. Then you can open a pull request and 
 
 ### Events
 | Keyword1 | Keyword2 |
-|:----------|:---------|
+|:---------|:---------|
 | removeEventListener | addEventListener |
 | audioStart | audioEnd |
 | focus | blur |
@@ -93,7 +93,7 @@ to update README.md with the new keywords. Then you can open a pull request and 
 
 ### HTML
 | Keyword1 | Keyword2 |
-|:----------|:---------|
+|:---------|:---------|
 | head | body |
 | ins | del |
 | header | footer |
@@ -103,13 +103,13 @@ to update README.md with the new keywords. Then you can open a pull request and 
 
 ### JSON
 | Keyword1 | Keyword2 |
-|:----------|:---------|
+|:---------|:---------|
 | JSON.stringify | JSON.parse |
 | stringify | parse |
 
 ### Math
 | Keyword1 | Keyword2 |
-|:----------|:---------|
+|:---------|:---------|
 | tan | atan |
 | floor | ceil |
 | sin | cos |
@@ -122,7 +122,7 @@ to update README.md with the new keywords. Then you can open a pull request and 
 
 ### Network
 | Keyword1 | Keyword2 |
-|:----------|:---------|
+|:---------|:---------|
 | 127.0.0.1 | 0.0.0.0 |
 | port | address |
 | server | client |
@@ -132,37 +132,37 @@ to update README.md with the new keywords. Then you can open a pull request and 
 
 ### Number
 | Keyword1 | Keyword2 |
-|:----------|:---------|
-| MIN_SAFE_INTEGER | MAX_SAFE_INTEGER |
-| MIN_VALUE | MAX_VALUE |
-| POSITIVE_INFINITY | NEGATIVE_INFINITY |
-| Number.MIN_SAFE_INTEGER | Number.MAX_SAFE_INTEGER |
-| Number.MIN_VALUE | Number.MAX_VALUE |
-| Number.POSITIVE_,INFINITY | Number.NEGATIVE_INFINITY |
+|:---------|:---------|
+| MIN\_SAFE\_INTEGER | MAX\_SAFE\_INTEGER |
+| MIN\_VALUE | MAX\_VALUE |
+| POSITIVE\_INFINITY | NEGATIVE\_INFINITY |
+| Number.MIN\_SAFE\_INTEGER | Number.MAX\_SAFE\_INTEGER |
+| Number.MIN\_VALUE | Number.MAX\_VALUE |
+| Number.POSITIVE\_,INFINITY | Number.NEGATIVE\_INFINITY |
 | Number.parseFloat | Number.parseInt |
 | parseFloat | parseInt |
 
 ### Operators
 | Keyword1 | Keyword2 |
-|:----------|:---------|
+|:---------|:---------|
 | ~ | ! |
-| / | * |
-| /= | *= |
-| | | & |
-| || | && |
-| |= | &= |
-| - | + |
-| -- | ++ |
-| -= | += |
-| >> | << |
-| >>= | <<= |
-| >= | <= |
+| / | \* |
+| /= | \*= |
+| &#124; | & |
+| &#124;&#124; | && |
+| &#124;= | &= |
+| \- | \+ |
+| \-\- | \+\+ |
+| \-= | \+= |
+| &gt;&gt; | &lt;&lt; |
+| &gt;&gt;= | &lt;&lt;= |
+| &gt;= | &lt;= |
 | != | == |
 | !== | === |
 
 ### positions
 | Keyword1 | Keyword2 |
-|:----------|:---------|
+|:---------|:---------|
 | top | bottom |
 | up | down |
 | vertical | horizontal |
@@ -171,7 +171,7 @@ to update README.md with the new keywords. Then you can open a pull request and 
 
 ### react
 | Keyword1 | Keyword2 |
-|:----------|:---------|
+|:---------|:---------|
 | removeChangeListener | addChangeListener |
 | componentWillUnmount | componentDidMount |
 | hydrate | dehydrate |
@@ -179,15 +179,15 @@ to update README.md with the new keywords. Then you can open a pull request and 
 
 ### Single characters
 | Keyword1 | Keyword2 |
-|:----------|:---------|
+|:---------|:---------|
 | 1 | 0 |
 | " | ' |
 | y | x |
 
 ### Other
 | Keyword1 | Keyword2 |
-|:----------|:---------|
-| {} | [] |
+|:---------|:---------|
+| {} | \[\] |
 | deactivate | activate |
 | passive | active |
 | remove | add |
@@ -241,3 +241,4 @@ to update README.md with the new keywords. Then you can open a pull request and 
 | parallel | serial |
 | stop | start |
 | this | that |
+

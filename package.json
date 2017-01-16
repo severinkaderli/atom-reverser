@@ -1,21 +1,22 @@
 {
-  "name": "atom-reverser",
-  "main": "./lib/atom-reverser",
-  "version": "2.5.0",
-  "description": "Atom package that reverses your current selections; e.g. false to true etc.",
-  "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "atom-reverser:reverse"
-  },
-  "repository": "https://github.com/severinkaderli/atom-reverser",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-replace": "^0.5.4",
-    "lodash": "^4.17.4"
-  }
+    "name": "atom-reverser",
+    "main": "./lib/atom-reverser",
+    "version": "2.5.0",
+    "description": "Atom package that reverses your current selections; e.g. false to true etc.",
+    "keywords": [],
+    "activationCommands": {
+        "atom-workspace": "atom-reverser:reverse"
+    },
+    "repository": "https://github.com/severinkaderli/atom-reverser",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-replace": "^0.5.4",
+        "lodash": "^4.17.4",
+        "markdown-escape": "severinkaderli/markdown-escape"
+    }
 }
