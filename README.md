@@ -39,28 +39,44 @@ apm install atom-reverser
 | {         | }         |
 | <         | >         |
 
+### CSS
+
+| Keyword 1 | Keyword 2 |
+|:----------|:----------|
+| absolute  | relative  |
+
+### Crypto
+
+| Keyword 1 | Keyword 2 |
+|:----------|:----------|
+| cipher    | decipher  |
+| decrypt   | encrypt   |
+| decrypted | encrypted |
+| sign      | verify    |
+
 ### DOM
 | Keyword 1      | Keyword 2            |
 |:---------------|:---------------------|
 | getElementById | getElementsByTagName |
 
 ### Events
-| Keyword 1    | Keyword 2    |
-|:-------------|:-------------|
-| audioEnd     | audioStart   |
-| blur         | focus        |
-| drag         | drop         |
-| dragEnter    | dragLeave    |
-| keyDown      | keyUp        |
-| mouseDown    | mouseUp      |
-| mouseEnter   | mouseLeave   |
-| mouseOut     | mouseOver    |
-| onMouseDown  | onMouseUp    |
-| onMouseEnter | onMouseLeave |
-| onMouseOut   | onMouseOver  |
-| pageHide     | pageShow     |
-| speechEnd    | speechStart  |
-| touchEnd     | touchStart   |
+| Keyword 1        | Keyword 2           |
+|:-----------------|:--------------------|
+| addEventListener | removeEventListener |
+| audioEnd         | audioStart          |
+| blur             | focus               |
+| drag             | drop                |
+| dragEnter        | dragLeave           |
+| keyDown          | keyUp               |
+| mouseDown        | mouseUp             |
+| mouseEnter       | mouseLeave          |
+| mouseOut         | mouseOver           |
+| onMouseDown      | onMouseUp           |
+| onMouseEnter     | onMouseLeave        |
+| onMouseOut       | onMouseOver         |
+| pageHide         | pageShow            |
+| speechEnd        | speechStart         |
+| touchEnd         | touchStart          |
 
 ### HTML
 | Keyword 1 | Keyword 2 |
@@ -92,13 +108,14 @@ apm install atom-reverser
 | max       | min        |
 
 ### Network
-| Keyword 1 | Keyword 2  |
-|:----------|:-----------|
-| 0.0.0.0   | 127.0.0.1  |
-| address   | port       |
-| client    | server     |
-| connect   | disconnect |
-| offline   | online     |
+| Keyword 1 | Keyword 2    |
+|:----------|:-------------|
+| 0.0.0.0   | 127.0.0.1    |
+| address   | port         |
+| client    | server       |
+| connect   | disconnect   |
+| connected | disconnected |
+| offline   | online       |
 
 ### Number
 | Keyword 1                | Keyword 2                |
@@ -131,11 +148,13 @@ apm install atom-reverser
 | ===       | !==          |
 
 ### Positions
-| Keyword 1 | Keyword 2 |
-|:----------|:----------|
-| bottom    | top       |
-| down      | up        |
-| left      | right     |
+| Keyword 1  | Keyword 2 |
+|:-----------|:----------|
+| bottom     | top       |
+| down       | up        |
+| horizontal | vertical  |
+| inner      | outer     |
+| left       | right     |
 
 ### React
 | Keyword 1         | Keyword 2            |
@@ -157,8 +176,10 @@ apm install atom-reverser
 |:------------|:------------|
 | []          | {}          |
 | activate    | deactivate  |
+| active      | passive     |
 | add         | remove      |
 | after       | before      |
+| argc        | argv        |
 | available   | unavailable |
 | background  | foreground  |
 | black       | white       |
@@ -180,9 +201,11 @@ apm install atom-reverser
 | hidden      | visible     |
 | hide        | show        |
 | high        | low         |
+| impossible  | possible    |
 | in          | out         |
 | input       | output      |
 | install     | uninstall   |
+| invalid     | valid       |
 | key         | value       |
 | large       | small       |
 | largest     | smallest    |
