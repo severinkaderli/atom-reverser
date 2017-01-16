@@ -1,3 +1,6 @@
+## 2.5.1
+* Fix markdown escaping in gulp readme task
+
 ## 2.5.0
 * Added more keywords
 * Added contribution information to README.md
