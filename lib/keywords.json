@@ -140,6 +140,7 @@
         "const": "let",
         "delete": "insert",
         "destination": "source",
+        "enable": "disable",
         "enabled": "disabled",
         "export": "import",
         "exports": "imports",

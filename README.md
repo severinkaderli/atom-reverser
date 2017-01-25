@@ -202,6 +202,7 @@ to update README.md with the new keywords. Then you can open a pull request and 
 | let | const |
 | insert | delete |
 | source | destination |
+| disable | enable |
 | disabled | enabled |
 | import | export |
 | imports | exports |
