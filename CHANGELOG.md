@@ -1,3 +1,9 @@
+## 2.6.0
+* Add enable / disable keywords
+* Fix dependencies in package.json
+* Add readme script to package.json
+* Update gulp task
+
 ## 2.5.1
 * Fix markdown escaping in gulp readme task
 
