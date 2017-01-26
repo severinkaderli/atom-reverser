@@ -54,10 +54,10 @@ to update `README.md` with the new keywords. Then you can open a pull request an
 
 | Keyword1 | Keyword2 |
 |:---------|:---------|
-| (        | )        |
-| [        | ]        |
+| \(       | \)       |
+| \[       | \]       |
 | {        | }        |
-| <        | >        |
+| &lt;     | &gt;     |
 
 ### CSS
 
@@ -148,42 +148,42 @@ to update `README.md` with the new keywords. Then you can open a pull request an
 
 ### Number
 
-| Keyword1                 | Keyword2                  |
-|:-------------------------|:--------------------------|
-| MAX_SAFE_INTEGER         | MIN_SAFE_INTEGER          |
-| MAX_VALUE                | MIN_VALUE                 |
-| NEGATIVE_INFINITY        | POSITIVE_INFINITY         |
-| Number.MAX_SAFE_INTEGER  | Number.MIN_SAFE_INTEGER   |
-| Number.MAX_VALUE         | Number.MIN_VALUE          |
-| Number.NEGATIVE_INFINITY | Number.POSITIVE_,INFINITY |
-| Number.parseFloat        | Number.parseInt           |
-| parseFloat               | parseInt                  |
+| Keyword1                  | Keyword2                   |
+|:--------------------------|:---------------------------|
+| MAX\_SAFE\_INTEGER        | MIN\_SAFE\_INTEGER         |
+| MAX\_VALUE                | MIN\_VALUE                 |
+| NEGATIVE\_INFINITY        | POSITIVE\_INFINITY         |
+| Number.MAX\_SAFE\_INTEGER | Number.MIN\_SAFE\_INTEGER  |
+| Number.MAX\_VALUE         | Number.MIN\_VALUE          |
+| Number.NEGATIVE\_INFINITY | Number.POSITIVE\_,INFINITY |
+| Number.parseFloat         | Number.parseInt            |
+| parseFloat                | parseInt                   |
 
 ### Operators
 
-| Keyword1 | Keyword2 |
-|:---------|:---------|
-| --       | ++       |
-| !        | ~        |
-| -=       | +=       |
-| -        | +        |
-| !=       | ==       |
-| !==      | ===      |
-| *        | /        |
-| *=       | /=       |
-| &        | |        |
-| &&       | ||       |
-| &=       | |=       |
-| <<       | >>       |
-| <<=      | >>=      |
-| <=       | >=       |
+| Keyword1  | Keyword2     |
+|:----------|:-------------|
+| \-\-      | \+\+         |
+| !         | ~            |
+| \-=       | \+=          |
+| \-        | \+           |
+| !=        | ==           |
+| !==       | ===          |
+| \*        | /            |
+| \*=       | /=           |
+| &         | &#124;       |
+| &&        | &#124;&#124; |
+| &=        | &#124;=      |
+| &lt;&lt;  | &gt;&gt;     |
+| &lt;&lt;= | &gt;&gt;=    |
+| &lt;=     | &gt;=        |
 
 ### Other
 
 | Keyword1    | Keyword2    |
 |:------------|:------------|
 | high        | low         |
-| []          | {}          |
+| \[\]        | {}          |
 | impossible  | possible    |
 | active      | passive     |
 | activate    | deactivate  |

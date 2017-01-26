@@ -34,7 +34,15 @@ gulp.task('readme', () => {
 
         // sort by first keyword
 
-        const sortedByKeyword = sortedByKey.sort(([first,], [second,]) => first.localeCompare(second) > 0)
+        const sortedByKeyword = sortedByKey
+          .sort(([first,], [second,]) => first.localeCompare(second) > 0)
+          .map(([ // escape keywords
+            firstKeyword,
+            secondKeyword
+          ]) => [
+            escape(firstKeyword),
+            escape(secondKeyword)
+          ])
 
         // calculate proper length for padding
 
