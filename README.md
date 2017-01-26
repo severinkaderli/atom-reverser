@@ -238,15 +238,7 @@ to update `README.md` with the new keywords. Then you can open a pull request an
 | start       | stop        |
 | that        | this        |
 
-### Single characters
-
-| Keyword1 | Keyword2 |
-|:---------|:---------|
-| '        | "        |
-| 0        | 1        |
-| x        | y        |
-
-### positions
+### Positions
 
 | Keyword1   | Keyword2 |
 |:-----------|:---------|
@@ -256,7 +248,7 @@ to update `README.md` with the new keywords. Then you can open a pull request an
 | inner      | outer    |
 | left       | right    |
 
-### react
+### React
 
 | Keyword1          | Keyword2             |
 |:------------------|:---------------------|
@@ -264,3 +256,12 @@ to update `README.md` with the new keywords. Then you can open a pull request an
 | componentDidMount | componentWillUnmount |
 | dehydrate         | hydrate              |
 | getState          | setState             |
+
+### Single Characters
+
+| Keyword1 | Keyword2 |
+|:---------|:---------|
+| '        | "        |
+| 0        | 1        |
+| x        | y        |
+
