@@ -87,8 +87,8 @@
         "Number.MAX_SAFE_INTEGER": "Number.MIN_SAFE_INTEGER",
         "Number.MAX_VALUE": "Number.MIN_VALUE",
         "Number.NEGATIVE_INFINITY": "Number.POSITIVE_,INFINITY",
-        "Number.parseInt": "Number.parseFloat",
-        "parseInt": "parseFloat"
+        "Number.parseFloat": "Number.parseInt",
+        "parseFloat": "parseInt"
     },
     "Operators": {
         "!": "~",
@@ -97,29 +97,29 @@
         "&": "|",
         "&&": "||",
         "&=": "|=",
-        "+": "-",
-        "++": "--",
-        "+=": "-=",
+        "-": "+",
+        "--": "++",
+        "-=": "+=",
         "<<": ">>",
         "<<=": ">>=",
         "<=": ">=",
-        "==": "!=",
-        "===": "!=="
+        "!=": "==",
+        "!==": "==="
     },
-    "positions": {
+    "Positions": {
         "bottom": "top",
         "down": "up",
         "horizontal": "vertical",
         "inner": "outer",
         "left": "right"
     },
-    "react": {
+    "React": {
         "addChangeListener": "removeChangeListener",
         "componentDidMount": "componentWillUnmount",
         "dehydrate": "hydrate",
         "getState": "setState"
     },
-    "Single characters": {
+    "Single Characters": {
         "'": "\"",
         "0": "1",
         "x": "y"
@@ -140,7 +140,8 @@
         "const": "let",
         "delete": "insert",
         "destination": "source",
-        "enabled": "disabled",
+        "disable": "enable",
+        "disabled": "enabled",
         "export": "import",
         "exports": "imports",
         "external": "internal",
@@ -173,10 +174,10 @@
         "prefix": "suffix",
         "primary": "secondary",
         "print": "println",
-        "public": "private",
+        "private": "public",
         "req": "res",
         "request": "response",
-        "serial": "parallel",
+        "parallel": "serial",
         "start": "stop",
         "that": "this"
     }

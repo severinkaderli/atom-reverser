@@ -7,6 +7,9 @@
   "activationCommands": {
     "atom-workspace": "atom-reverser:reverse"
   },
+  "scripts": {
+    "readme": "gulp readme"
+  },
   "repository": "https://github.com/severinkaderli/atom-reverser",
   "license": "MIT",
   "engines": {
@@ -16,7 +19,6 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-replace": "^0.5.4",
-    "lodash": "^4.17.4",
-    "markdown-escape": "git://github.com/severinkaderli/markdown-escape.git#1.0.0"
+    "markdown-escape": "git://github.com/severinkaderli/markdown-escape.git#v1.0.0"
   }
 }
