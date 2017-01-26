@@ -13,7 +13,7 @@ Atom package that reverses your current selections; e.g. `false` to `true` etc.
 apm install atom-reverser
 ```
 
-## Contribution
+## How to contribute
 
 If you want to add new keywords just add them to [./lib/keywords.json](./lib/keywords.json) and then run
 
