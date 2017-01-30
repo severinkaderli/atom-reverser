@@ -35,7 +35,7 @@ gulp.task('readme', () => {
         // sort by first keyword
 
         const sortedByKeyword = sortedByKey
-          .sort(([first,], [second,]) => first.localeCompare(second) > 0)
+          .sort(([first,], [second,]) => first.localeCompare(second))
           .map(([ // escape keywords
             firstKeyword,
             secondKeyword
