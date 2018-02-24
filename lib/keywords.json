@@ -78,7 +78,9 @@
         "client": "server",
         "connect": "disconnect",
         "connected": "disconnected",
-        "offline": "online"
+        "login": "logout",
+        "offline": "online",
+        "password": "username"
     },
     "Number": {
         "MAX_SAFE_INTEGER": "MIN_SAFE_INTEGER",
