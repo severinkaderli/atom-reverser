@@ -1,3 +1,8 @@
+## 2.7.0
+* Add more keywords
+* Add Yarn lockfile
+* Add .editorconfig
+
 ## 2.6.0
 * Add enable / disable keywords
 * Fix dependencies in package.json
