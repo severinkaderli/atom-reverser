@@ -144,7 +144,9 @@ to update `README.md` with the new keywords. Then you can open a pull request an
 | client    | server       |
 | connect   | disconnect   |
 | connected | disconnected |
+| login     | logout       |
 | offline   | online       |
+| password  | username     |
 
 ### Number
 
