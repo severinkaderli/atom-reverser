@@ -5,7 +5,7 @@
 
 Atom package that reverses your current selections; e.g. `false` to `true` etc.
 
-![Atom Reverser in action](https://i.imgur.com/YawGVsN.gif)
+![Atom Reverser in action](https://imgur.com/TrhwQz9.gif)
 
 ## Install
 
