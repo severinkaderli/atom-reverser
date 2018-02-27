@@ -1,3 +1,10 @@
+## 2.7.2
+* Fix typo in one of the keywords
+* Update dependencies
+
+## 2.7.1
+* Fix release on apm
+
 ## 2.7.0
 * Add more keywords
 * Add Yarn lockfile
