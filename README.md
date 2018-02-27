@@ -1,7 +1,7 @@
 # atom-reverser
 
-[![Plugin installs](https://img.shields.io/apm/dm/atom-reverser.svg?style=flat-square)](https://atom.io/packages/atom-reverser)
-[![Package version](https://img.shields.io/apm/v/atom-reverser.svg?style=flat-square)](https://atom.io/packages/atom-reverser)
+[![Plugin installs](https://img.shields.io/apm/dm/atom-reverser.svg)](https://atom.io/packages/atom-reverser)
+[![Package version](https://img.shields.io/apm/v/atom-reverser.svg)](https://atom.io/packages/atom-reverser)
 
 Atom package that reverses your current selections; e.g. `false` to `true` etc.
 
@@ -21,7 +21,7 @@ If you want to add new keywords just add them to [./lib/keywords.json](./lib/key
 gulp readme
 ```
 
-to update `README.md` with the new keywords. Then you can open a pull request and I will most likely merge it.
+to update `README.md` with the new keywords. Then you can open a pull request and I will merge it.
 
 ## Usage
 
