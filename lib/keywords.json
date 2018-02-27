@@ -88,7 +88,7 @@
         "NEGATIVE_INFINITY": "POSITIVE_INFINITY",
         "Number.MAX_SAFE_INTEGER": "Number.MIN_SAFE_INTEGER",
         "Number.MAX_VALUE": "Number.MIN_VALUE",
-        "Number.NEGATIVE_INFINITY": "Number.POSITIVE_,INFINITY",
+        "Number.NEGATIVE_INFINITY": "Number.POSITIVE_INFINITY",
         "Number.parseFloat": "Number.parseInt",
         "parseFloat": "parseInt"
     },

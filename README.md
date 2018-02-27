@@ -150,16 +150,16 @@ to update `README.md` with the new keywords. Then you can open a pull request an
 
 ### Number
 
-| Keyword1                  | Keyword2                   |
-|:--------------------------|:---------------------------|
-| MAX\_SAFE\_INTEGER        | MIN\_SAFE\_INTEGER         |
-| MAX\_VALUE                | MIN\_VALUE                 |
-| NEGATIVE\_INFINITY        | POSITIVE\_INFINITY         |
-| Number.MAX\_SAFE\_INTEGER | Number.MIN\_SAFE\_INTEGER  |
-| Number.MAX\_VALUE         | Number.MIN\_VALUE          |
-| Number.NEGATIVE\_INFINITY | Number.POSITIVE\_,INFINITY |
-| Number.parseFloat         | Number.parseInt            |
-| parseFloat                | parseInt                   |
+| Keyword1                  | Keyword2                  |
+|:--------------------------|:--------------------------|
+| MAX\_SAFE\_INTEGER        | MIN\_SAFE\_INTEGER        |
+| MAX\_VALUE                | MIN\_VALUE                |
+| NEGATIVE\_INFINITY        | POSITIVE\_INFINITY        |
+| Number.MAX\_SAFE\_INTEGER | Number.MIN\_SAFE\_INTEGER |
+| Number.MAX\_VALUE         | Number.MIN\_VALUE         |
+| Number.NEGATIVE\_INFINITY | Number.POSITIVE\_INFINITY |
+| Number.parseFloat         | Number.parseInt           |
+| parseFloat                | parseInt                  |
 
 ### Operators
 
