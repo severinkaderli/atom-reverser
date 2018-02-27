@@ -75,7 +75,7 @@ gulp.task('readme', () => {
         output += '\n\n'
       })
 
-    gulp.src(["./README.md"])
+    return gulp.src(["./README.md"])
       .pipe(replace(/## List of keywords[\s\S]*$/, output))
       .pipe(gulp.dest("./",{"overwrite": true}))
 })
