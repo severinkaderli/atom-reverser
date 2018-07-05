@@ -114,6 +114,12 @@ to update `README.md` with the new keywords. Then you can open a pull request an
 | ol       | ul       |
 | tFoot    | tHead    |
 
+### idTech
+
+| Keyword1 | Keyword2 |
+|:---------|:---------|
+| qfalse   | qtrue    |
+
 ### JSON
 
 | Keyword1   | Keyword2       |
@@ -266,4 +272,3 @@ to update `README.md` with the new keywords. Then you can open a pull request an
 | '        | "        |
 | 0        | 1        |
 | x        | y        |
-
