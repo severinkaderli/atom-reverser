@@ -1,7 +1,7 @@
 {
     "name": "atom-reverser",
     "main": "./lib/atom-reverser",
-    "version": "3.0.1",
+    "version": "3.0.3",
     "description": "Atom package that reverses your current selections; e.g. false to true etc.",
     "keywords": [],
     "activationCommands": {
@@ -10,7 +10,7 @@
     "scripts": {
         "readme": "gulp readme"
     },
-    "repository": "https://gitlab.com/severinkaderli/atom-reverser",
+    "repository": "https://github.com/severinkaderli/atom-reverser",
     "license": "MIT",
     "engines": {
         "atom": ">=1.0.0 <2.0.0"
