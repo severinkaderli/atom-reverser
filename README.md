@@ -1,8 +1,4 @@
 # atom-reverser
-
-[![Plugin installs](https://img.shields.io/apm/dm/atom-reverser.svg)](https://atom.io/packages/atom-reverser)
-[![Package version](https://img.shields.io/apm/v/atom-reverser.svg)](https://atom.io/packages/atom-reverser)
-
 Atom package that reverses your current selections; e.g. `false` to `true` etc.
 
 ![Atom Reverser in action](https://imgur.com/TrhwQz9.gif)
