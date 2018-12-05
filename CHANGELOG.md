@@ -1,3 +1,7 @@
+## 3.0.0
+* Rewrite package to use JavaScript instead of Coffeescript
+* Change files from .cson to .json
+
 ## 2.7.2
 * Fix typo in one of the keywords
 * Update dependencies
