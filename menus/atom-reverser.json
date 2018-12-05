@@ -1,0 +1,26 @@
+{
+    "context-menu": {
+        "atom-text-editor": [
+            {
+                "label": "Reverse",
+                "command": "atom-reverser:reverse"
+            }
+        ]
+    },
+    "menu": [
+        {
+            "label": "Packages",
+            "submenu": [
+                {
+                    "label": "Reverser",
+                    "submenu": [
+                        {
+                            "label": "Reverse",
+                            "command": "atom-reverser:reverse"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
