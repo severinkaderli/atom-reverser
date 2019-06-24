@@ -100,6 +100,12 @@ apm install atom-reverser
 | ol       | ul       |
 | tFoot    | tHead    |
 
+### idTech
+
+| Keyword1 | Keyword2 |
+|:---------|:---------|
+| qfalse   | qtrue    |
+
 ### JSON
 
 | Keyword1   | Keyword2       |
@@ -252,4 +258,3 @@ apm install atom-reverser
 | '        | "        |
 | 0        | 1        |
 | x        | y        |
-

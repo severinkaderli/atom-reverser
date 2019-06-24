@@ -57,6 +57,9 @@
         "ol": "ul",
         "tFoot": "tHead"
     },
+    "idTech": {
+        "qfalse": "qtrue"
+    },
     "JSON": {
         "JSON.parse": "JSON.stringify",
         "parse": "stringify"
